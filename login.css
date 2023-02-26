@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,103,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+.card{
+float: center;
+margin-top: 140px;
+margin-left: 45px;
+margin-right: 45px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,152,153,1) 0%, 
+rgba(0,212,255,1) 100%);
+padding-left: 30px;
+border-radius: 8px;
+padding-bottom: 20px;
+padding-top: 10px;
+}
+h1{
+color: white;
+
+}
+legend{
+font-size: 25px;
+}
+input{
+padding: 8px 20px 8px 20px;
+border-radius: 8px;
+border: 2px solid cornflowerblue;
+color:black;
+}
+input:hover{
+box-shadow: 8px 8px 10px #2781E7;
+outline-color: #2781E7;
+}
+input:focus{
+color: #2781E7;
+}
+p{
+font-size: 18px;
+line-height: 3px;
+margin-left: 5px;
+font-family: 'Roboto', sans-serif;
+}
+button{
+margin-left: 20px;
+padding: 5px 50px 5px 50px;
+font-size: larger;
+border-radius: 12px;
+background-color: #2781E7;
+border: 2px solid #2781E7;
+color: white;
+font-family: 'Roboto', sans-serif;
+}button:hover{
+box-shadow: 2px 2px 5px grey;
+}
+.par{
+font-size: 20px;
+line-height: normal;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+}
+.par:hover{
+text-decoration: none;
+}
+span:hover{
+text-decoration: underline;
+}
+@media screen and (min-width: 1000px){
+.card{
+float: center;
+margin-top: 160px;
+margin-left: 450px;
+margin-right: 35px;
+width: 400px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(125,152,153,1) 0%, 
+rgba(0,212,255,1) 100%);
+padding-left: 170px;
+border-radius: 8px;
+padding-bottom: 20px;
+padding-top: 10px;
+}
+}
